@@ -13,7 +13,7 @@ export interface AttributeDetails_attribute_values {
   id: string;
   name: string | null;
   slug: string | null;
-  sortOrder: number | null;
+  sortOrder: number;
   type: AttributeValueType | null;
   value: string | null;
 }
@@ -28,6 +28,7 @@ export interface AttributeDetails_attribute {
   filterableInStorefront: boolean | null;
   inputType: AttributeInputTypeEnum | null;
   storefrontSearchPosition: number | null;
+  valueRequired: boolean | null;
   values: (AttributeDetails_attribute_values | null)[] | null;
 }
 

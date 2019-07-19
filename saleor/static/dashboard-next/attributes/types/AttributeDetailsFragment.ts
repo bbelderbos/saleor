@@ -13,7 +13,7 @@ export interface AttributeDetailsFragment_values {
   id: string;
   name: string | null;
   slug: string | null;
-  sortOrder: number | null;
+  sortOrder: number;
   type: AttributeValueType | null;
   value: string | null;
 }
@@ -28,5 +28,6 @@ export interface AttributeDetailsFragment {
   filterableInStorefront: boolean | null;
   inputType: AttributeInputTypeEnum | null;
   storefrontSearchPosition: number | null;
+  valueRequired: boolean | null;
   values: (AttributeDetailsFragment_values | null)[] | null;
 }
