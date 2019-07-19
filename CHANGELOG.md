@@ -25,6 +25,7 @@ All notable, unreleased changes to this project will be documented in this file.
 - Add slug generation = #4488 by @dominik-zeglen
 - Dropped `null` in `sort_order` fields to make it easier to reorder in API - #4481 by @NyanKiyoshi
 - Add drag'n'drop attribute reordering in product type view - #4492 by @dominik-zeglen
+- Add "value required" switch - #4498 by @dominik-zeglen
 
 ## [Unreleased]
 
